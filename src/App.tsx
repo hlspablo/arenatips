@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { PlansSection } from 'components/PlansSection';
+import { Questions } from 'components/Questions';
+import { ResultsSection } from 'components/ResultsSection';
+import { SectionTwo } from 'components/SectionTwo';
+import { Header } from './components/Header';
+import './reset.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App"
+      style={{
+        paddingBottom: 100,
+      }}
+    >
+      <Header />
+      <SectionTwo />
+      <ResultsSection />
+      <PlansSection />
+      <Questions />
     </div>
   );
 }
