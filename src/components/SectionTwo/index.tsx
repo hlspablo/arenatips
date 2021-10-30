@@ -7,12 +7,12 @@ import {
 
 export const SectionTwo = () => (
   <>
-    <SectionContainer>
+    <SectionContainer id="saiba-mais">
       <Message>Acompanhe quem tem resultados</Message>
       <SubMessage>
         Alta acertividade nos palpites
       </SubMessage>
-      <TinyMessage>Futebol, FIFA, GALGOS, Corrida de Cavalos, Esportse US</TinyMessage>
+      <TinyMessage>Futebol, FIFA, GALGOS, Corrida de Cavalos, Esportes US e muito mais</TinyMessage>
     </SectionContainer>
   </>
 );

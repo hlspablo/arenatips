@@ -11,6 +11,7 @@ function App() {
       className="App"
       style={{
         paddingBottom: 100,
+        backgroundColor: '#f6f6f6',
       }}
     >
       <Header />

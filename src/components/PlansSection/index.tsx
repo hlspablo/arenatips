@@ -6,6 +6,7 @@ import fifa from 'assets/images/groups/fifa.png';
 import basquete from 'assets/images/groups/basquete.png';
 import escanteios from 'assets/images/groups/escanteios.jpg';
 import gols from 'assets/images/groups/gols.jpg';
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   SectionContainer,
   Title,
@@ -26,9 +27,8 @@ import {
 
 export const PlansSection = () => (
   <>
-    <SectionContainer>
+    <SectionContainer id="planos">
       <Title>Escolha seu plano preferido</Title>
-
       <CardsContainer>
         <Card>
           <CardTitle>Arena Tips Futebol</CardTitle>
@@ -64,7 +64,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1517501872/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
         <Card>
@@ -104,7 +111,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1564422996/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
         <Card>
@@ -141,7 +155,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1378415557/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
       </CardsContainer>
@@ -181,7 +202,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1586885505/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
         <Card>
@@ -211,17 +239,20 @@ export const PlansSection = () => (
             <PriceContainer>
               <PriceText>Apenas</PriceText>
               <PriceValueContainer>
-                <PriceValue>R$ 49,90</PriceValue>
+                <PriceValue>R$ 60,00</PriceValue>
                 <PriceTextSmall>Mensal</PriceTextSmall>
-              </PriceValueContainer>
-              <PriceValueContainer>
-                <PriceValue>R$ 119,70</PriceValue>
-                <PriceTextSmall>Trimestre</PriceTextSmall>
               </PriceValueContainer>
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1344724837/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
         <Card>
@@ -258,7 +289,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1578314732/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
       </CardsContainer>
@@ -297,7 +335,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1557058725/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
         <Card>
@@ -333,7 +378,14 @@ export const PlansSection = () => (
             </PriceContainer>
           </CardSection>
           <ButtonContainer>
-            <Button>Participar</Button>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1107205660',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
           </ButtonContainer>
         </Card>
       </CardsContainer>

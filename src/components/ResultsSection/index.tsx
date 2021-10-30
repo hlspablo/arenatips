@@ -17,8 +17,6 @@ export const ResultsSection = () => (
         <ResultImage src={res1} />
         <ResultImage src={res2} />
         <ResultImage src={res3} />
-      </ImagesContainer>
-      <ImagesContainer>
         <ResultImage src={depo1} />
         <ResultImage src={depo2} />
         <ResultImage src={depo3} />

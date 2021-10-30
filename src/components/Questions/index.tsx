@@ -1,6 +1,7 @@
 import {
   Accordion, AccordionIcon, AccordionItem, AccordionPanel, Box,
 } from '@chakra-ui/react';
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   AccordionButtonFirst,
   QuestionContent,
@@ -8,6 +9,8 @@ import {
   Title,
   WhiteLine,
   AccordionButtonMiddle,
+  LastButtonContainer,
+  Button,
 } from './styles';
 
 export const Questions = () => (
@@ -85,6 +88,11 @@ export const Questions = () => (
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
+      <LastButtonContainer>
+        <Link smooth to="#planos">
+          <Button>Entendi, quero fazer parte</Button>
+        </Link>
+      </LastButtonContainer>
     </SectionContainer>
   </>
 );

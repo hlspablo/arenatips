@@ -77,26 +77,28 @@ export const CardTitle = styled.div`
 `;
 export const Card = styled.div`
     display: flex;
+    flex: 1 1 358px;
+    margin: 15px;
     align-items: center;
     flex-direction: column;
-    width: 378px;
     border-radius: 20px;
     background-color: #ffffff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 `;
 export const CardsContainer = styled.div`
     display: flex;
-    justify-content: space-between;
-    padding: 0px 50px;
-    margin-top: 40px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 `;
 export const Title = styled.h3`
     font-family: 'Bebas Neue', cursive;
-    font-size: 5.3rem;
+    font-size: clamp(3.5rem, 5vw + 1.4rem, 6rem);
     text-align: center;
     color: #262626;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 `;
 export const SectionContainer = styled.div`
     background-color: #f6f6f6;
-    padding: 50px 50px;
 `;

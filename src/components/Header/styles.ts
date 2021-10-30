@@ -3,48 +3,49 @@ import headerBg from 'assets/images/headerBg.jpeg';
 
 export const ButtonSeeMore = styled.button`
     font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
     color: #262626;
     background-color: #ffffff;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    padding: 8px 45px;
+    padding-block: 8px;
+    padding-inline: 25px;
     border: none;
+    cursor: pointer;
 `;
 export const Button = styled.button`
     font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
     color: #ffffff;
     background-color: #3CB400;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    padding: 8px 45px;
+    padding-block: 8px;
+    padding-inline: 25px;
     border: none;
-    margin-right: 100px;
+    cursor: pointer;
 `;
 export const ButtonsContainer = styled.div`
     display: flex;
-    margin-top: 40px;
-    justify-content: center;
+    flex: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-inline: 20px;
 `;
 export const SubtitleContainer = styled.div`
-    padding: 0px 60px;
-    @media only screen and (max-width: 480px) {
-        padding: 0px 13px;
-    }
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 `;
 export const Subtitle = styled.h4`
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(2rem, 2.5vw + 1.4rem, 3rem);
     text-align: center;
     font-weight: 500;
     color: #ffffff;
-    @media only screen and (max-width: 480px) {
-        font-size: 1.6rem;
-    }
-    @media only screen and (max-width: 767px) {
-        font-size: 2rem;
-    }
+    margin-bottom: min(60px, 7vw);
 `;
 export const Title = styled.h3`
     font-family: 'Bebas Neue', cursive;
