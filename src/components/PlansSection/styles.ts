@@ -9,6 +9,7 @@ export const Button = styled.button`
     border-radius: 12px;
     padding: 8px 45px;
     border: none;
+    cursor: pointer;
 `;
 export const ButtonContainer = styled.div`
     display: flex;
@@ -83,7 +84,11 @@ export const Card = styled.div`
     flex-direction: column;
     border-radius: 20px;
     background-color: #ffffff;
+    transition: transform .2s;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    &:hover {
+        transform: scale(1.04);
+    }
 `;
 export const CardsContainer = styled.div`
     display: flex;
