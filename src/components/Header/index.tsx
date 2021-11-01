@@ -15,7 +15,7 @@ export const Header = () => (
     </LogoContainer>
     <Title>APOSTAS ESPORTIVAS</Title>
     <SubtitleContainer>
-      <Subtitle>Vamos ter ajudar a ter resultados positivos no mundo das apostas</Subtitle>
+      <Subtitle>Vamos ter ajudar a te resultados positivos no mundo das apostas</Subtitle>
     </SubtitleContainer>
     <ButtonsContainer>
       <HttpLink
