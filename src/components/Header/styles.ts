@@ -4,8 +4,8 @@ import headerBg from 'assets/images/headerBg.jpeg';
 export const ButtonSeeMore = styled.button`
     font-family: 'Bebas Neue', cursive;
     font-size: clamp(1.5rem, 3vw, 2.1rem);
-    color: #262626;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding-block: 8px;
@@ -32,6 +32,20 @@ export const ButtonsContainer = styled.div`
     margin: 0 auto;
     max-width: 600px;
     padding-inline: 20px;
+`;
+export const BlackFridayContainer = styled.div`
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+`;
+export const BlackFridayText = styled.h4`
+    font-family: 'Bebas Neue', cursive;
+    font-size: clamp(2rem, 2.5vw + 1.4rem, 3rem);
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
 `;
 export const SubtitleContainer = styled.div`
     max-width: 1200px;

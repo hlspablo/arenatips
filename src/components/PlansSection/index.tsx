@@ -1,11 +1,12 @@
 import galgos from 'assets/images/groups/galgos.png';
 import futebol from 'assets/images/groups/futebol.png';
-import combo from 'assets/images/groups/combo.png';
+// import combo from 'assets/images/groups/combo.png';
 import cavalos from 'assets/images/groups/cavalos.png';
 import fifa from 'assets/images/groups/fifa.png';
 import basquete from 'assets/images/groups/basquete.png';
 import escanteios from 'assets/images/groups/escanteios.jpg';
 import gols from 'assets/images/groups/gols.jpg';
+import vitalicio from 'assets/images/groups/vitalicio.png';
 import { HashLink as Link } from 'react-router-hash-link';
 import {
   SectionContainer,
@@ -30,6 +31,55 @@ export const PlansSection = () => (
     <SectionContainer id="planos">
       <Title>Escolha seu plano preferido</Title>
       <CardsContainer>
+        <Card>
+          <CardTitle>Arena Combo Vitalício</CardTitle>
+          <CardImage src={vitalicio} />
+          <CardSection>
+            <DescriptionLineCentered>
+              Futebol, Galgos, Cavalos, Esportes US,
+              Cantos e Gols com desconto especial na Black Friday e acesso vitalício
+            </DescriptionLineCentered>
+            <br />
+            <DescriptionLine>
+              • Análise profissional. 📊
+            </DescriptionLine>
+            <DescriptionLine>
+              • Tips PRÉ/LIVE Diárias
+            </DescriptionLine>
+            <DescriptionLine>
+              • Bilhetes Prontos
+            </DescriptionLine>
+            <DescriptionLine>
+              • Suporte
+            </DescriptionLine>
+            <DescriptionLine>
+              • E-Book personalizado completo
+            </DescriptionLine>
+            <DescriptionLineCentered>
+              O seu resultado, é a nossa satisfação.
+              <br />
+              @arenatipsbr 💚
+            </DescriptionLineCentered>
+
+            <PriceContainer>
+              <PriceText>Apenas</PriceText>
+              <PriceValueContainer>
+                <PriceValue>R$ 179,90</PriceValue>
+                <PriceTextSmall>Vitalício</PriceTextSmall>
+              </PriceValueContainer>
+            </PriceContainer>
+          </CardSection>
+          <ButtonContainer>
+            <Link
+              to={{
+                pathname: 'https://app.hub.la/checkout/1564422996/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
+          </ButtonContainer>
+        </Card>
         <Card>
           <CardTitle>Arena Tips Futebol</CardTitle>
           <CardImage src={futebol} />
@@ -74,7 +124,7 @@ export const PlansSection = () => (
             </Link>
           </ButtonContainer>
         </Card>
-        <Card>
+        {/* <Card>
           <CardTitle>Arena Tips COMBO</CardTitle>
           <CardImage src={combo} />
           <CardSection>
@@ -120,51 +170,7 @@ export const PlansSection = () => (
               <Button>Participar</Button>
             </Link>
           </ButtonContainer>
-        </Card>
-        <Card>
-          <CardTitle>Arena Tips Galgos</CardTitle>
-          <CardImage src={galgos} />
-          <CardSection>
-            <DescriptionLine>
-              • Análise profissional. 📊
-            </DescriptionLine>
-            <DescriptionLine>
-              • Tips PRÉ/LIVE Diárias
-            </DescriptionLine>
-            <DescriptionLine>
-              • Bilhetes Prontos
-            </DescriptionLine>
-            <DescriptionLine>
-              • Suporte
-            </DescriptionLine>
-            <DescriptionLine>
-              • E-Book personalizado completo
-            </DescriptionLine>
-            <DescriptionLineCentered>
-              O seu resultado, é a nossa satisfação.
-              <br />
-              @arenatipsbr 💚
-            </DescriptionLineCentered>
-
-            <PriceContainer>
-              <PriceText>Apenas</PriceText>
-              <PriceValueContainer>
-                <PriceValue>R$ 60,00</PriceValue>
-                <PriceTextSmall>Mensal</PriceTextSmall>
-              </PriceValueContainer>
-            </PriceContainer>
-          </CardSection>
-          <ButtonContainer>
-            <Link
-              to={{
-                pathname: 'https://chatpay.com.br/checkout/1378415557/',
-              }}
-              target="_blank"
-            >
-              <Button>Participar</Button>
-            </Link>
-          </ButtonContainer>
-        </Card>
+        </Card> */}
       </CardsContainer>
       {/* SECOND ROW */}
       <CardsContainer>
@@ -196,7 +202,7 @@ export const PlansSection = () => (
             <PriceContainer>
               <PriceText>Apenas</PriceText>
               <PriceValueContainer>
-                <PriceValue>R$ 49,90</PriceValue>
+                <PriceValue>R$ 80,00</PriceValue>
                 <PriceTextSmall>Mensal</PriceTextSmall>
               </PriceValueContainer>
             </PriceContainer>
@@ -256,6 +262,53 @@ export const PlansSection = () => (
           </ButtonContainer>
         </Card>
         <Card>
+          <CardTitle>Arena Tips Galgos</CardTitle>
+          <CardImage src={galgos} />
+          <CardSection>
+            <DescriptionLine>
+              • Análise profissional. 📊
+            </DescriptionLine>
+            <DescriptionLine>
+              • Tips PRÉ/LIVE Diárias
+            </DescriptionLine>
+            <DescriptionLine>
+              • Bilhetes Prontos
+            </DescriptionLine>
+            <DescriptionLine>
+              • Suporte
+            </DescriptionLine>
+            <DescriptionLine>
+              • E-Book personalizado completo
+            </DescriptionLine>
+            <DescriptionLineCentered>
+              O seu resultado, é a nossa satisfação.
+              <br />
+              @arenatipsbr 💚
+            </DescriptionLineCentered>
+
+            <PriceContainer>
+              <PriceText>Apenas</PriceText>
+              <PriceValueContainer>
+                <PriceValue>R$ 80,00</PriceValue>
+                <PriceTextSmall>Mensal</PriceTextSmall>
+              </PriceValueContainer>
+            </PriceContainer>
+          </CardSection>
+          <ButtonContainer>
+            <Link
+              to={{
+                pathname: 'https://chatpay.com.br/checkout/1378415557/',
+              }}
+              target="_blank"
+            >
+              <Button>Participar</Button>
+            </Link>
+          </ButtonContainer>
+        </Card>
+      </CardsContainer>
+      {/* SECTION THREE */}
+      <CardsContainer>
+        <Card>
           <CardTitle>Arena Tips Esportes US</CardTitle>
           <CardImage src={basquete} />
           <CardSection>
@@ -299,9 +352,6 @@ export const PlansSection = () => (
             </Link>
           </ButtonContainer>
         </Card>
-      </CardsContainer>
-      {/* SECTION THREE */}
-      <CardsContainer>
         <Card>
           <CardTitle>Arena Tips Escanteios</CardTitle>
           <CardImage src={escanteios} />
