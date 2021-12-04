@@ -172,6 +172,10 @@ export const PlansSection = () => (
           <CardTitle>Arena Tips COMBO</CardTitle>
           <CardImage src={combo} />
           <CardSection>
+            <DescriptionLineCentered>
+              Futebol, Galgos, Cavalos e Esporte US
+            </DescriptionLineCentered>
+            <br />
             <DescriptionLine>
               • Análise profissional. 📊
             </DescriptionLine>
