@@ -4,8 +4,8 @@ import headerBg from 'assets/images/headerBg.jpeg';
 export const ButtonSeeMore = styled.button`
     font-family: 'Bebas Neue', cursive;
     font-size: clamp(1.5rem, 3vw, 2.1rem);
-    color: #ffffff;
-    background-color: #000000;
+    color: #262626;
+    background-color: #ffffff;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding-block: 8px;

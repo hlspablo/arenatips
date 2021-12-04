@@ -2,8 +2,6 @@ import mainLogo from 'assets/images/mainLogo.png';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Link as HttpLink } from 'react-router-dom';
 import {
-  BlackFridayContainer,
-  BlackFridayText,
   Button,
   ButtonsContainer,
   ButtonSeeMore,
@@ -34,10 +32,5 @@ export const Header = () => (
         </Link>
       </ButtonsContainer>
     </HeaderContainer>
-    <BlackFridayContainer>
-      <BlackFridayText>
-        Aproveite nossos descontos na BLACK FRIDAY
-      </BlackFridayText>
-    </BlackFridayContainer>
   </>
 );

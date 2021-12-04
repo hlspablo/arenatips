@@ -59,6 +59,8 @@ export const DescriptionLine = styled.p`
     margin-bottom: 8px;
 `;
 export const CardSection = styled.div`
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
     padding: 0px 30px;
 `;
