@@ -50,7 +50,6 @@ export const DescriptionLineCentered = styled.p`
     font-weight: 500;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 20px;
 `;
 export const DescriptionLine = styled.p`
     font-family: 'Poppins', sans-serif;
